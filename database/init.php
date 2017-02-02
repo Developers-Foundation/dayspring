@@ -20,15 +20,15 @@ if ($conn->connect_error) {
 }
 echo "Connected successfully";
 
-$sql = "CREATE DATABASE DB1;";
+/*$sql = "CREATE DATABASE DB1;";
 if ($conn->query($sql) === TRUE) {
     echo "Database created successfully";
 } else {
     echo "Error creating database: " . $conn->error;
-}
+}*/
 
 $sql = "
-CREATE TABLE DB1.tab1(
+CREATE TABLE heroku_898cc148975c8aa.tab1(
 PersonID int,
 LastName varchar(255),
 FirstName varchar(255),
@@ -41,7 +41,7 @@ if ($conn->query($sql) === TRUE) {
     echo "Error creating database: " . $conn->error;
 }
 
-$sql = "INSERT INTO DB1.tab1
+$sql = "INSERT INTO heroku_898cc148975c8aa.tab1
 VALUES (1,'abc','abc','abc','abc');";
 if ($conn->query($sql) === TRUE) {
     echo "Database created successfully";
