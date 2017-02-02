@@ -36,3 +36,5 @@ $sql = "SELECT * FROM heroku_898cc148975c8aa.tab1;";
 $results = $conn -> query($sql);
 var_dump($results);
 echo $results;
+
+$conn->close();
