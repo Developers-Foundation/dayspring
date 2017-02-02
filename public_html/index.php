@@ -52,7 +52,7 @@
         include_once "html_elements/footer2.php";
         include_once "html_elements/contactUsModal.php";
 */
-        include_once "../database/select.php.php";
+        include_once "../database/select.php";
     ?>
 
 
