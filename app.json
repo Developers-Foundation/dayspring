@@ -1,7 +1,7 @@
 {
-  "name": "Blank PHP Heroku Project",
+  "name": "Dayspring",
   "description": "Blank PHP Project for Quick deploy to Heroku with partial NOB API implemented",
-  "repository": "https://github.com/nobodyrandom/blank-bootstrap.git",
+  "repository": "https://github.com/Developers-Foundation/dayspring.git",
   "logo": "https://developersfoundation.ca/assets/img/logo.png",
   "keywords": ["php", "heroku", "blank", "template", "nob"]
 }
